@@ -4,7 +4,7 @@ import requests
 url = 'http://anapioficeandfire.com/api/characters?name='
 
 # Get the character name to search for
-name = input('Enter a name to search for: ').replace(' ', '%20')
+name = input('Enter a name to search for: ')
 url += name
 
 # Make an HTTP request and the API will respond with a JSON output
